@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tasks>
     <task>
-        <id>2</id>
-        <name>1</name>
-        <time>2018-02-01T23:23+04:00</time>
-    </task>
-    <task>
-        <id>3</id>
-        <name>2</name>
-        <time>2018-02-01T23:23+04:00</time>
+        <id>12</id>
+        <name>Сделать что-то</name>
+        <time>2020-02-02T12:00+04:00</time>
     </task>
 </tasks>

@@ -17,9 +17,6 @@ public class Server {
         try {
             server = new ServerSocket(19000);
 
-            /*Task tas = new Task("f","23:50");
-            System.out.println(tas.getName() + tas.getTime());*/
-
             while (true) {
                 Socket socket = server.accept();
 
@@ -27,8 +24,7 @@ public class Server {
                 ClientHandler con = new ClientHandler(socket);
                 connections.add(con);
 
-                // Инициализирует нить и запускает метод run(),
-                // которая выполняется одновременно с остальной программой
+                // Инициализирует нить и запускает метод run()
                 con.start();
             }
         } catch (IOException e) {
